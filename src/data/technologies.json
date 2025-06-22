@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Node.js",
+    "desc": "JavaScript runtime for building scalable server-side apps.",
+    "icon": "🟩"
+  },
+  {
+    "name": "Express",
+    "desc": "Minimalist web framework for Node.js.",
+    "icon": "🚂"
+  },
+  {
+    "name": "Django",
+    "desc": "Python-based web framework for rapid development.",
+    "icon": "🐍"
+  },
+  {
+    "name": "Flask",
+    "desc": "Lightweight Python web framework.",
+    "icon": "🍶"
+  },
+  {
+    "name": "Spring Boot",
+    "desc": "Java framework for building production-ready apps.",
+    "icon": "🌱"
+  },
+  {
+    "name": "Ruby on Rails",
+    "desc": "Convention-over-configuration Ruby web framework.",
+    "icon": "💎"
+  }
+]

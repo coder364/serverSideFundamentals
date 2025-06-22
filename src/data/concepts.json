@@ -1,0 +1,107 @@
+[
+  {
+    "title": "Client-Server Architecture",
+    "description": "A model where clients request resources and servers provide them, forming the backbone of web communication.",
+    "icon": "🖥️"
+  },
+  {
+    "title": "Request-Response Cycle",
+    "description": "The process where a client sends a request to the server, which processes and returns a response.",
+    "icon": "🔄"
+  },
+  {
+    "title": "HTTP Methods",
+    "description": "Standard verbs like GET, POST, PUT, DELETE define the action to be performed on resources.",
+    "icon": "🌐"
+  },
+  {
+    "title": "REST APIs",
+    "description": "APIs that follow Representational State Transfer principles, enabling stateless, scalable communication.",
+    "icon": "🔗"
+  },
+  {
+    "title": "Middleware",
+    "description": "Functions that process requests between the client and server logic, often used for auth, logging, etc.",
+    "icon": "🧩"
+  },
+  {
+    "title": "SSR vs CSR",
+    "description": "Server-Side Rendering (SSR) generates HTML on the server; Client-Side Rendering (CSR) renders in the browser.",
+    "icon": "⚡"
+  },
+  {
+    "title": "Server Security",
+    "description": "Includes authentication, HTTPS, and CORS to protect data and ensure safe communication.",
+    "icon": "🔒"
+  },
+  {
+    "title": "Git & GitHub",
+    "description": "Distributed version control and collaborative coding.",
+    "icon": "🔧"
+  },
+  {
+    "title": "Structured vs Unstructured Databases",
+    "description": "SQL vs NoSQL data storage.",
+    "icon": "🗄️"
+  },
+  {
+    "title": "Linux Commands",
+    "description": "Essential commands for server management.",
+    "icon": "🐧"
+  },
+  {
+    "title": "Server Frameworks",
+    "description": "Node.js, Express, Django, and more.",
+    "icon": "🛠️"
+  },
+  {
+    "title": "HTTP & Web Protocols",
+    "description": "GET, POST, status codes, and web communication.",
+    "icon": "🌐"
+  },
+  {
+    "title": "REST APIs",
+    "description": "Stateless, scalable API design.",
+    "icon": "🔗"
+  },
+  {
+    "title": "XSS, CSRF, SQL Injection",
+    "description": "Web security threats and prevention.",
+    "icon": "🛡️"
+  },
+  {
+    "title": "GraphQL, Swagger, Postman",
+    "description": "Modern API tools and documentation.",
+    "icon": "📚"
+  },
+  {
+    "title": "Networking Basics",
+    "description": "TCP/IP, DNS, ports, and connectivity.",
+    "icon": "🔌"
+  },
+  {
+    "title": "DevOps",
+    "description": "CI/CD, automation, and containerization.",
+    "icon": "⚙️"
+  },
+  {
+    "title": "SSR vs CSR",
+    "description": "Server-side vs client-side rendering.",
+    "icon": "⚡"
+  },
+  {
+    "title": "Authentication & Authorization",
+    "description": "JWT, OAuth, and access control.",
+    "icon": "🔑"
+  },
+  {
+    "title": "Microservices",
+    "description": "Decoupled, scalable service architecture.",
+    "icon": "🧩"
+  },
+  {
+    "title": "WebSockets & Real-Time",
+    "description": "Live, two-way communication.",
+    "icon": "💬"
+  }
+]

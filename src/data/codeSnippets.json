@@ -1,0 +1,69 @@
+{
+  "git": {
+    "code": "git init\ngit add .\ngit commit -m \"Initial commit\"\ngit push origin main",
+    "note": "Basic Git workflow commands."
+  },
+  "databases": {
+    "code": "SELECT * FROM users; -- SQL (Structured)\ndb.users.find({}) // MongoDB (Unstructured)",
+    "note": "SQL for structured, MongoDB for unstructured."
+  },
+  "linuxCommands": {
+    "code": "ls -la\ncd /var/www\ncat server.js\nsudo systemctl restart nginx",
+    "note": "Common Linux commands for server ops.",
+    "simulation": [
+      { "text": "user@server:~$ ls -la", "delay": 800 },
+      { "text": "drwxr-xr-x 2 user user 4096 ...", "delay": 700 },
+      { "text": "user@server:~$ cd /var/www", "delay": 800 },
+      { "text": "user@server:/var/www$ cat server.js", "delay": 900 }
+    ]
+  },
+  "serverFrameworks": {
+    "code": "const express = require('express');\nconst app = express();\napp.get('/', (req, res) => res.send('Hello World!'));",
+    "note": "Express.js server example."
+  },
+  "http": {
+    "code": "GET /api/users HTTP/1.1\nHost: example.com\n\nHTTP/1.1 200 OK\nContent-Type: application/json",
+    "note": "HTTP request/response example.",
+    "simulation": [
+      { "text": "Client: Sending GET /api/users", "delay": 1000 },
+      { "text": "Server: 200 OK, sending data...", "delay": 1200 },
+      { "text": "Client: Data received!", "delay": 900 }
+    ]
+  },
+  "restApi": {
+    "code": "GET /api/products\nPOST /api/products\nPUT /api/products/1\nDELETE /api/products/1",
+    "note": "RESTful API endpoints."
+  },
+  "security": {
+    "code": "<input onmouseover=\"alert('XSS')\">\n-- SQL Injection: ' OR 1=1; --\n// CSRF: Malicious POST request",
+    "note": "Examples of XSS, SQL Injection, CSRF."
+  },
+  "graphql": {
+    "code": "{ user(id: 1) { name email } } // GraphQL\n// Swagger: OpenAPI docs\n// Postman: API testing",
+    "note": "GraphQL query and API tools."
+  },
+  "networking": {
+    "code": "ping google.com\nnslookup example.com\n# TCP/IP, DNS, ports",
+    "note": "Networking commands and concepts."
+  },
+  "devops": {
+    "code": "docker build -t myapp .\ngit push origin main\n# CI/CD pipeline triggers",
+    "note": "DevOps: Docker, Git, CI/CD."
+  },
+  "ssrCsr": {
+    "code": "// SSR: Next.js getServerSideProps\n// CSR: React useEffect()",
+    "note": "SSR vs CSR code patterns."
+  },
+  "auth": {
+    "code": "const token = jwt.sign({ userId }, secret);\n// OAuth: Redirect to provider",
+    "note": "JWT and OAuth basics."
+  },
+  "microservices": {
+    "code": "// Service A: /api/orders\n// Service B: /api/payments\n// Communicate via REST or message queue",
+    "note": "Microservices endpoints."
+  },
+  "websockets": {
+    "code": "const ws = new WebSocket('ws://localhost:3000');\nws.onmessage = (msg) => console.log(msg.data);",
+    "note": "WebSocket client example."
+  }
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "question": "Which HTTP method is used to retrieve data from a server?",
+    "options": ["POST", "GET", "PUT", "DELETE"],
+    "answer": 1
+  },
+  {
+    "question": "What does REST stand for?",
+    "options": [
+      "Representational State Transfer",
+      "Remote Server Technology",
+      "Rapid Execution Server Task",
+      "Resource Execution and Storage Transfer"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which is NOT a server-side technology?",
+    "options": ["Node.js", "React", "Django", "Express"],
+    "answer": 1
+  },
+  {
+    "question": "What is middleware used for?",
+    "options": [
+      "Styling web pages",
+      "Processing requests/responses",
+      "Storing data in browsers",
+      "Rendering images"
+    ],
+    "answer": 1
+  },
+  { "question": "Which command initializes a new Git repository?", "options": ["git start", "git init", "git new", "git create"], "answer": 1 },
+  { "question": "Which is a structured database?", "options": ["MongoDB", "MySQL", "Redis", "Cassandra"], "answer": 1 },
+  { "question": "What does 'ls' do in Linux?", "options": ["List files", "Login", "Logout", "Link files"], "answer": 0 },
+  { "question": "Which is a Node.js web framework?", "options": ["Flask", "Express", "Django", "Laravel"], "answer": 1 },
+  { "question": "Which HTTP method is used to update data?", "options": ["GET", "POST", "PUT", "DELETE"], "answer": 2 },
+  { "question": "REST APIs are:", "options": ["Stateful", "Stateless", "Synchronous only", "None"], "answer": 1 },
+  { "question": "XSS is a type of:", "options": ["Authentication", "Authorization", "Security vulnerability", "Database"], "answer": 2 },
+  { "question": "Which is used for API documentation?", "options": ["GraphQL", "Swagger", "JWT", "OAuth"], "answer": 1 },
+  { "question": "What does DNS stand for?", "options": ["Domain Name System", "Data Network Service", "Direct Name Server", "Domain Network System"], "answer": 0 },
+  { "question": "What is CI/CD?", "options": ["Continuous Integration/Continuous Deployment", "Code Inspection/Code Debugging", "Centralized Integration/Continuous Delivery", "None"], "answer": 0 },
+  { "question": "SSR stands for:", "options": ["Server-Side Rendering", "Secure Socket Routing", "Server-Side Request", "Static Site Rendering"], "answer": 0 },
+  { "question": "JWT is used for:", "options": ["Database queries", "Authentication", "Styling", "Testing"], "answer": 1 },
+  { "question": "Microservices are:", "options": ["Monolithic", "Decoupled", "Single server", "None"], "answer": 1 },
+  { "question": "WebSockets enable:", "options": ["One-way communication", "Two-way real-time communication", "Static pages", "Database queries"], "answer": 1 }
+]
